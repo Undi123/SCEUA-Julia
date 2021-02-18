@@ -49,8 +49,7 @@ dim = 10
 lb = ones(dim) * -10
 ub = ones(dim) * 10
 obj_func = cost_func
-n_complex_pop = max(n_complex_pop, dim+1) # 如果n_pop_complex小于nVar+1,将n_pop_complex设为nVar+1
-# 这个设定来自Nelder-Mead Standard
+n_complex_pop = max(n_complex_pop, dim+1) 
 sce_params = SCE_params(max_iter, n_complex, n_complex_pop, dim, lb, ub, obj_func)
 
 # CCE parameters
