@@ -1,5 +1,5 @@
 # SCEUA-Julia
-Shuffled Complex Evolution algorithm implemented in Julia
+Shuffled Complex Evolution (SCE-UA) algorithm implemented in Julia
 
 # References
 [1] Duan, Q. Y., Vijai K. Gupta, and Soroosh Sorooshian. "Shuffled complex evolution approach for effective and efficient global minimization." Journal of optimization theory and applications 76.3 (1993): 501-521.
